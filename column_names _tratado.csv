@@ -1,0 +1,52 @@
+columna.name,translation
+Timestamp,
+X.Cu l.es.tu.genero.,genero
+X.Qu‚.edad.tienes.,edad
+X.De.d¢nde.es.tu.procedencia.,procedencia
+X.Estudiaste.sistemas.por.elecci¢n.propia.,eleccion_estudio
+X.Estudiaste.carreras.simultaneas.,carrera_simultanea
+X.Te.cambiaste.de.carrera.,cambio_carrera
+X.Fuiste.Becado.,becado
+X.Fuiste.excelencia.acad‚mica.,excelencia_academica
+X.Cual.fue.tu.promedio.de.graduaci¢n.,promedio_graduacion
+X.Trabajaste.y.estudiaste.,trabajo_y_estudio
+En.promedio..Cuantas.clases.por.periodo.llevabas.,clases_por_periodo
+X.Cuantos.a¤os.tardaste.en.graduarte.de.ingenier¡a.en.sistemas.,tiempo_graduacion
+En.general....Los.ingenieros.con.los.que.metiste.clases.eran.buenos.dando.la.clase.,rendimiento_docente
+X.Est s.satisfecho.con.los.conocimientos.que.te.impartieron.en.la.universidad.,calidad_contenido
+X.Qu‚.herramientas.y.tecnolog¡as.aprendiste.en.la.universidad.,tecnologias_unah
+X.Qu‚.herramientas.y.tecnolog¡as.aprendiste.por.tu.cuenta.,tecnologias_autodidacta
+X.Estuviste.en.actividades.extracurriculares.como.ser.deportes..hackathon..Honduras.startup..etc..,actividades_extracurriculares
+X.Cu les.son.las. reas.que.menos.te.gustaron.de.ingenier¡a.en.sistemas.,areas_no_favoritas
+X.Cuales.fueron.las. reas.que.mas.te.gustaron.de.ingeniera.en.sistemas.,areas_favoritas
+X.Te.sentiste.preparado.al.momento.de.ir.a.practica.profesional.,preparacion_practica
+X.Como.era.lucia.tu.portafolio.a.la.hora.de.ir.a.la.practica.profesional.,portafolio
+X.Sentiste.que.los.conocimientos.de.la.practica.te.ayudaron.para.entrar.al.mercado.laboral.,conocimientos_ayudaron
+X.Cual.fue.tu.a¤o.de.graduaci¢n.,anio_graduacion
+X.Cual.fue.tu.mes.de.graduaci¢n.,mes_graduacion
+X.Hab¡as.trabajado.en.algo.relacionado.a.la.carrera.antes.de.graduarte.,trabajo_por_carrera
+X.Te.gust¢.tu.lugar.de.pr ctica.,gustar_practica
+X.Te.ofrecieron.quedarte.en.la.empresa.donde.realizaste.tu.pr ctica.,ofrecieron_trabajo_practica
+X.Trabajas.o.trabajaste.donde.realizaste.tu.pr ctica.,trabajo_practica
+En.tu.experiencia...qu‚.herramientas.consideras.m s.importantes.en.el.mercado.actual.,tecnologias_mercado_laboral
+Despu‚s.de.graduarte...Has.estado.actualiz ndote.en.las.nuevas.tecnolog¡as.,actualizacion_tecnologias
+X.Actualmente.tienes.trabajo.,trabajo_actual
+Si.tienes.trabajo..Tu.trabajo.actual.esta.relacionado.a.la.ingenier¡a.en.sistemas.,trabajo_ingeniero_sistemas
+X.Cu ntos.meses.estuviste.desempleado.despu‚s.de.tu.graduaci¢n.,meses_desempleado
+X.Trabajas.en.tu. rea.de.preferencia.,trabajo_area_preferencia
+X.Ten¡as.trabajo.antes.de.graduarte.,trabajo_pre_graduacion
+X.Cu l.era.tu.nivel.de.ingl‚s.antes.de.tu.graduaci¢n.,nivel_ingles
+X.Cu nto.conoc¡as.del.desarrollo.del.software.antes.de.graduarte.,nivel_programacion
+X.Cu nto.conoc¡as.de.infraestructura.de.red.antes.de.graduarte.,nivel_redes
+X.Cu nto.conoc¡as.de.manejo.de.servidores.antes.de.graduarte.,nivel_servidores
+X.Cu nto.conoc¡as..del.dise¤o.de.software.antes.de.graduarte.,nivel_disenio
+X.Cu nto.conoc¡as.de.administraci¢n.de.empresas.antes.de.graduarte.,nivel_admin
+X.Te.gustaba.liderar.proyectos.antes.de.graduarte.,lider_proyectos
+X.Qu‚.tan.proactivo.te.considerabas.antes.de.graduarte.,nivel_proactividad
+X.Utilizabas.tu.tiempo.libre.para.aprender.herramientas.por.tu.cuenta.cuando.segu¡as.en.la.universidad.,nivel_autodidacta
+X.Eras.buen.expositor.,expositor
+X.Eras.buen.negociador.,negociador
+X.Acostumbrabas.a.ser.coordinador.en.tus.grupos.en.las.clases.de.la.universidad.,lider
+X.Te.consideras.introvertido.,introvertido
+X.Te.consideras.competitivo.,competitivo
+X.Te.molestas.con.facilidad.,irritabilidad
