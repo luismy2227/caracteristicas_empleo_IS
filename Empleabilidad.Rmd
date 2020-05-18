@@ -23,7 +23,7 @@ library(caret)
 Durante este análisis vamos a estudiar la existencia de algunas características que vuelvan propensos al desempleo a los egresados de la carrera de Ingeniería en Sistemas de la UNAH. La recolección de información se hizo mediante la aplicación de una encuesta a egresados de la carrera. Al ser parte de una generación pronta a egresar, conocemos la importancia de estudiar el panorama laboral y preocuparnos por lo que nos depara el mercado, por lo que estos resultados podrán tomarse en cuenta para mejorar nuestras costumbres y competencias, para volvernos más cercanos a lo que el mercado necesita.
 
 ```{r reading_dataset, echo=FALSE}
-setwd("C:/Users/Luis/Desktop/Cap4/")
+setwd("C:/Users/Luis/Desktop/Cap4/caracteristicas_empleo_IS/")
 survey <- read.csv("Encuesta Seminario.csv",header = T, sep = ",", encoding = "UTF-8")
 stop_words_spanish <- read.delim("stop_words_spanish.txt", header = TRUE, sep = "\n", encoding = "UTF-8")
 str(survey)
