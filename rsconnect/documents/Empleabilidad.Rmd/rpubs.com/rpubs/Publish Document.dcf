@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/616341/bd929ab0be2047feb40f4d2a235ba53c
+bundleId: https://api.rpubs.com/api/v1/document/616341/bd929ab0be2047feb40f4d2a235ba53c
+url: http://rpubs.com/luismy2227/616341
+when: 1589850062.34499

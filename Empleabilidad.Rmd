@@ -422,16 +422,26 @@ Y tenemos el portal del estudiante  donde este estará almacenado en un EC2 en a
 ##### Seguro social - UNAH
 Una vez que el estudiante esté listo para su práctica profesional y  abra expediente en las oficinas de ingeniería en sistemas, el tendrá que enviar su CV a nuestra plataforma. Una vez tenido el CV inicia el proceso de recopilación de información. La información del CV será manipulada en Hadoop Mahout.
 
-Como habíamos dicho anteriormente en el Capítulo II, primero se ocupará hacer unas pruebas de entrenamiento para el algoritmo de aprendizaje automático. Así mismo, este algoritmo se estará re-aprendiendo cada dos años debido a que las tecnológicas son cambiantes. 
+![Diagrama de la arquitectura de la solución tecnológica 1](Sol_Seguro.png)
+![Diagrama de la arquitectura de la solución tecnológica 2](Sol_Seguro2.png)
 
-En este caso es donde entra la conexión Seguro Social - UNAH. Nosotros necesitamos saber cómo luce un CV apto para la empleabilidad o uno no apto para la empleabilidad. Esto lo podemos resolver sabiendo si el estudiante labora después de su graduación. Primero traemos los datos de la UNAH para saber los datos de identificación personal del estudiante y compararlos con los del seguro social. Si se registran reducciones recientes  en las cuentas de dichos estudiante quiere decir que están actualmente laborando. 
+
+Una vez que el estudiante esté listo para su práctica profesional y  abra expediente en las oficinas de ingeniería en sistemas, el tendrá que enviar su CV a nuestra plataforma. Una vez tenido el CV inicia el proceso de recopilación de información. La información del CV será manipulada en Hadoop Mahout. 
+
+Como habíamos dicho anteriormente en el Capítulo II, primero se ocupará hacer unas pruebas de entrenamiento para el algoritmo de aprendizaje automático. Así mismo, este algoritmo se estará re-aprendiendo cada dos años debido a que las tecnológicas son cambiantes. En este caso es donde entra la conexión Seguro Social - UNAH. Nosotros necesitamos saber cómo luce un CV apto para la empleabilidad o uno no apto para la empleabilidad. Esto lo podemos resolver sabiendo si el estudiante labora después de su graduación. Primero traemos los datos de la UNAH para saber los datos de identificación personal del estudiante y compararlos con los del seguro social. Si se registran reducciones recientes  en las cuentas de dichos estudiante quiere decir que están actualmente laborando. 
+
 
 ##### Portal web - AWS Elastic beanstalk
+![Diagrama de la arquitectura de la solución tecnológica 3](Sol_AWS.png)
+
+
 El portal web estará montando en los servidores de AWS y estaremos usando Elastic Beanstalk por razones de organización. Elastic Beanstalk es solo una integración con muchas otras tecnologías dentro de los servicios que ofrece AWS que en nuestro caso nos ayudará a mantener organizado nuestro trabajo y nos ahorra tiempo de configuración.
 
 Si bien es cierto, el portal sólo lo estarán viendo los estudiantes o los administradores de la carrera de ingeniería en sistemas, a nosotros los desarrolladores nos servirá para integrar toda la información que viene de hadoop y que va para hadoop. 
 
 ##### Hadoop - AWS Glue
+![Diagrama de la arquitectura de la solución tecnológica 4](Sol_Hadoop.png)
+
 Una vez consumidas las APIs del Seguro Social y de la UNAH esta información se estar guardando en una base de datos relacional. Donde se estará utilizando AWS Glue como herramienta de Extracción, carga y transformación. Antes de enviar la información a Hadoop  primero preparamos los datos y despues enviemos a Hadoop. 
 
 Hadoop es un set de tecnologías para aplicaciones en forma de cluster que mayormente se utilizan para el trabajo de datos masivos. En nuestro caso estamos interesado en la interacción que tiene con computación distribuida y las capabilidades de la herramienta madura como Mahout para el desarrollo de algoritmos de aprendizaje automático. 
@@ -441,6 +451,5 @@ Una vez nuestra información se encuentre de forma ordenada en AWS glue, está p
 ![Diagrama de la arquitectura de la solución tecnológica](sol.png)
 
 #### Presupuesto
-Regresando a la tabla 7 en el Capítulo II donde aparece un total estimado de $1800 por mes. Estamos confiados en que solo es un estimado ya que la calculadora de AWS no nos dejaba poner valores mínimos de cierto tiempo, tuvimos que elegir los datos que ellos pensaban deseables. 
+![Presupuesto](Presupuesto.png)
 
- Los primeros dos años serán los menos costosos ya que solo se están recopilando información y solo se estará pagando el mínimo para el dominio del portal y almacenamiento. Después de compilar información y ver que se tiene suficiente información necesaria para empezar a entrenar el algoritmo, se empezaría a utilizar los servicios de Hadoop para entrenar el algoritmo. Confiamos en que no sería mucho el tiempo de entrenamiento y esperamos un uso mínimo del servidor de Hadoop al entrenar el algoritmo. Nuevamente se utilizará el servidor de Hadoop para determinar el nivel de empleabilidad de cada estudiante y este se hará en batch para cortar costos. Se habilitaran una cantidad de días al empezar la matrícula para que el estudiante envíe su CV a la plataforma.
